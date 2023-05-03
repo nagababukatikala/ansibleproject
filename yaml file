@@ -1,0 +1,9 @@
+case1.yaml
+---
+ - name: debug module for case1
+   hosts: all
+   tasks:
+     - name: dispaly below message
+       debug: msg= " welcome to varains"
+       :wq!
+       
