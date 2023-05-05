@@ -1,0 +1,13 @@
+#!/usr/bin/ansible-playbook
+---
+ - name: print the below message
+   hosts: nagu9
+   tasks:
+#case1
+   - name: using msg
+     debug: msg='NAGU'
+
+#case2
+   - name: using msg
+     debug:
+      msg: 'NAGU'
